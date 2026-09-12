@@ -7,7 +7,7 @@ All selected photographs were supplied by Shailja in `D:\portfoliowebsite`. The 
 | `mewithactivists.jpeg` | `kiul-fieldwork.webp` | First hero photograph |
 | `ShaktiIndirabhawan.jpeg` | `shakti-leadership.webp` | Second hero photograph and Impact |
 | `INC1.jpeg` | `research-team.webp` | Third hero photograph |
-| `ProfilePicture.jpeg` | `shailja-lavania.webp` | Story portrait |
+| `shailja1.png` | `shailja-lavania.webp` | Story portrait |
 | `DyingKiul.jpeg` | `kiul-river.webp` | Featured Kiul research |
 | `interview.jpeg` | `community-conversations.webp` | Research photograph strip |
 | `meatkiul.jpeg` | `shailja-at-kiul.webp` | Research photograph strip |
