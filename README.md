@@ -27,7 +27,7 @@ The three hero photographs are in `.slides`. Their visible captions come from `d
 
 ## GitHub Pages
 
-This is a project website in the requested repository, `Shailja-Lavania/shailjalavania.github.io`. Its Pages address is **https://shailja-lavania.github.io/shailjalavania.github.io/**. The account name contains a hyphen while the repository name does not, so GitHub treats it as a project site. An account-root site would require a repository named `shailja-lavania.github.io`; this project preserves the repository you requested.
+This repository is the account website: `Shailja-Lavania/shailja-lavania.github.io`. Its public address is **https://shailja-lavania.github.io/** (the account name includes a hyphen, and the repository name matches it, so GitHub serves the site at the account root).
 
 In repository **Settings → Pages**, select **Deploy from a branch**, **main**, and **/ (root)**, then Save. No custom domain or Actions workflow is required. `.nojekyll` tells Pages to serve the files directly. Subsequent pushes to `main` update the site.
 
