@@ -1472,6 +1472,13 @@ content stays visible otherwise. */
 .article-body p { margin-block:20px; font-size:1.06rem; line-height:1.85; }
 .article-body figure { margin-block:28px; }
 .article-end { margin-top:48px; padding-top:24px; border-top:1px solid var(--line); }
+.kiul-slideshow { margin:45px 0 65px; min-width:0; }
+.kiul-slideshow .slides { height:clamp(340px,48vw,590px); background:#eaece4; }
+.kiul-slideshow .slide img { object-fit:contain; object-position:center; }
+@media(max-width:600px) {
+  .kiul-slideshow { margin:32px 0 38px; }
+  .kiul-slideshow .slides { height:420px; max-height:65svh; }
+}
 @media(max-width:600px) {
   .parliament-gallery { grid-column:1/-1; }
   .work-gallery { gap:20px; grid-template-columns:1fr; }

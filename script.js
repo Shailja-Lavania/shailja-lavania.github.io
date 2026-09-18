@@ -27,10 +27,10 @@
     if (event.matches) closeMenu();
   });
 
-  const carousel = document.querySelector('.slideshow');
+  document.querySelectorAll('.slideshow').forEach(carousel => {
   const slides = [...carousel.querySelectorAll('.slide')];
-  const pauseButton = document.querySelector('#toggle-slideshow');
-  const announcement = document.querySelector('#slider-announcement');
+  const pauseButton = carousel.querySelector('[data-slider="toggle-slideshow"]');
+  const announcement = carousel.querySelector('[data-slider="slider-announcement"]');
   let current = 0;
   let paused = reducedMotion.matches;
   let timer;
@@ -48,9 +48,9 @@
       if (active) slide.querySelector('img').loading = 'eager';
     });
     const selected = slides[current];
-    document.querySelector('#slide-title').textContent = selected.dataset.title;
-    document.querySelector('#slide-caption').textContent = selected.dataset.caption;
-    document.querySelector('#slide-number').textContent = String(current + 1).padStart(2, '0');
+    carousel.querySelector('[data-slider="slide-title"]').textContent = selected.dataset.title;
+    carousel.querySelector('[data-slider="slide-caption"]').textContent = selected.dataset.caption;
+    carousel.querySelector('[data-slider="slide-number"]').textContent = String(current + 1).padStart(2, '0');
     if (announce) announcement.textContent = `Photograph ${current + 1} of ${slides.length}: ${selected.dataset.title}`;
   }
   function schedule() {
@@ -69,8 +69,8 @@
     showSlide(current + direction, true);
     schedule();
   }
-  document.querySelector('#previous-slide').addEventListener('click', () => step(-1));
-  document.querySelector('#next-slide').addEventListener('click', () => step(1));
+  carousel.querySelector('[data-slider="previous-slide"]').addEventListener('click', () => step(-1));
+  carousel.querySelector('[data-slider="next-slide"]').addEventListener('click', () => step(1));
   pauseButton.addEventListener('click', () => setPaused(!paused));
   carousel.addEventListener('keydown', event => {
     if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
@@ -101,6 +101,7 @@
   document.addEventListener('visibilitychange', schedule);
   reducedMotion.addEventListener('change', event => { if (event.matches) setPaused(true); });
   setPaused(paused);
+  });
 
   if ('IntersectionObserver' in window) {
     if (!reducedMotion.matches) {

@@ -5,6 +5,7 @@ A personal portfolio built with HTML, CSS and JavaScript. This checkout is the l
 ## September 2026 private update
 
 - Added the two supplied MP photos and parliamentary work folder link.
+- Added all 14 supplied Kiul photographs in an independent research-section slider with captions, keyboard and swipe navigation, pause/play, and reduced-motion support.
 - Replaced the portrait with the supplied `shailja1.jpg`.
 - Included both Shakti Abhiyan photographs and the Canva design folder link.
 - Added the Savera Foundation report, optimized for hosting with all 66 pages and extracted text retained; the original source PDF is untouched.
