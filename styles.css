@@ -10,6 +10,7 @@
   --sans:Arial,Helvetica,sans-serif;
   --width:1280px
 }
+
 * {
   box-sizing:border-box
 }
@@ -1447,4 +1448,35 @@ content stays visible otherwise. */
   .featured-research {
     display:block
   }
+}
+
+/* Work samples retain their complete photographs at every screen size. */
+.work-links { display:flex; flex-wrap:wrap; align-items:center; gap:12px 24px; margin-top:22px; }
+.work-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.parliament-gallery { grid-column:2/-1; max-width:780px; }
+.work-gallery img { height:380px; object-fit:contain; background:#eaece4; }
+.work-gallery a,.shakti-gallery a { display:block; }
+.impact-photo>.shakti-gallery { padding:0; align-self:stretch; display:grid; gap:0; }
+.shakti-gallery figure { padding:0 0 16px; }
+.shakti-gallery img { height:auto; object-fit:contain; }
+.shakti-gallery figcaption { padding-inline:20px; color:#dce3da; }
+.portrait img { aspect-ratio:auto; object-fit:contain; }
+.design-work { display:flex; justify-content:space-between; align-items:center; gap:32px; margin-top:48px; padding-top:32px; border-top:1px solid #b6beb0; }
+.design-work h3 { margin:12px 0; }
+.design-work p:not(.eyebrow) { color:var(--muted); }
+.design-work>a { flex-shrink:0; }
+.article-header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:24px; padding-block:28px; border-bottom:1px solid var(--line); }
+.article-body { width:min(760px,calc(100% - 40px)); margin:64px auto 96px; overflow-wrap:anywhere; }
+.article-body h1 { font-size:clamp(2.4rem,5vw,4rem); line-height:1.1; letter-spacing:-.035em; margin:20px 0 36px; }
+.article-body h2 { font-size:clamp(1.8rem,3vw,2.4rem); line-height:1.2; margin:42px 0 20px; }
+.article-body p { margin-block:20px; font-size:1.06rem; line-height:1.85; }
+.article-body figure { margin-block:28px; }
+.article-end { margin-top:48px; padding-top:24px; border-top:1px solid var(--line); }
+@media(max-width:600px) {
+  .parliament-gallery { grid-column:1/-1; }
+  .work-gallery { gap:20px; grid-template-columns:1fr; }
+  .work-gallery img { height:auto; max-height:520px; }
+  .design-work { display:block; }
+  .design-work>a { margin-top:20px; }
+  .article-body { margin-top:36px; }
 }

@@ -1,6 +1,20 @@
 # Shailja Lavania — Public Policy & Political Researcher
 
-A personal portfolio built with HTML, CSS and JavaScript for GitHub Pages. No framework, package installation or build step is needed.
+A personal portfolio built with HTML, CSS and JavaScript. This checkout is the local `dev` branch, deployed separately to owner-only Sites hosting. The public GitHub Pages site is unchanged. Do not push this branch to the public GitHub repository without explicit authorization.
+
+## September 2026 private update
+
+- Added the two supplied MP photos and parliamentary work folder link.
+- Replaced the portrait with the supplied `shailja1.jpg`.
+- Included both Shakti Abhiyan photographs and the Canva design folder link.
+- Added the Savera Foundation report, optimized for hosting with all 66 pages and extracted text retained; the original source PDF is untouched.
+- Added “Beyond Welfare Announcements in Uttar Pradesh” as a draft HTML article, preserving its text, chart and hyperlinks.
+- Replaced the downloadable CV with the exact supplied PDF. SHA-256: `526da40550cafa661e00df0ac88a3a8e65827dd234b390b9aa61dbb03fc03549`.
+- Removed the CRFHGR experience and associated research entry.
+
+Run `node prepare-static.cjs` to stage only website assets in ignored `dist/` for Sites packaging. `.openai/hosting.json` identifies the owner-only deployment. `origin` continues to identify the public GitHub repository for reference; the private Sites source repository is a separate deployment destination. The local branch remains `dev` even though Sites uses its own remote `main` branch.
+
+Keep the Sites audience owner-only. A `noindex` tag alone is not access control. Review the private website before deciding whether to publish any changes publicly.
 
 This is a glimpse of the work Shailja has done so far and, somewhere, of who she is too. Some things began with curiosity, a question that stayed with her, or a feeling that something mattered enough to understand it better.
 
@@ -37,7 +51,7 @@ All local asset paths are relative. There are no server-side functions, tracking
 
 The Story section is adapted from Shailja's own account. Research and experience are based on her supplied resume. The Quint publication links directly to the published article dated 21 June 2026. Kiul Nadi is explicitly labelled as a book in progress; unpublished work is not presented as a publication.
 
-The public CV is a formatted version of the supplied resume with Gmail, LinkedIn and published-work links. The phone number and Instagram link are omitted to match the chosen public contact details. Replace the PDF with an updated public CV when needed.
+The CV is the exact user-supplied replacement PDF, with no layout, formatting or content modifications.
 
 ## Accessibility and motion
 
