@@ -7,7 +7,7 @@ A personal portfolio built with HTML, CSS and JavaScript. This checkout is the l
 - Added MGNREGA and PLFS project links, Instagram, refreshed INC and Shakti photographs, and the updated three-slide homepage sequence.
 
 - Added the two supplied MP photos and parliamentary work folder link.
-- Added seven distinct Kiul fieldwork photographs, with a separate featured river photo in an independent research-section slider with captions, keyboard and swipe navigation, pause/play, and reduced-motion support.
+- Added ten distinct Kiul fieldwork photographs, with a separate featured river photo in an independent research-section slider with captions, keyboard and swipe navigation, pause/play, and reduced-motion support.
 - Replaced the portrait with the supplied `shailja1.jpg`.
 - Included both Shakti Abhiyan photographs and the Canva design folder link.
 - Added the Savera Foundation report, optimized for hosting with all 66 pages and extracted text retained; the original source PDF is untouched.
