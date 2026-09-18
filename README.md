@@ -1,21 +1,23 @@
-# Shailja Lavania — Public Policy & Political Researcher
+# Shailja Lavania : Public Policy & Political Researcher
 
-A personal portfolio built with HTML, CSS and JavaScript. This checkout is the local `dev` branch, deployed separately to owner-only Sites hosting. The public GitHub Pages site is unchanged. Do not push this branch to the public GitHub repository without explicit authorization.
+A personal portfolio built with HTML, CSS and JavaScript. This checkout is the local `dev` branch, deployed separately to restricted-access Sites hosting. The public GitHub Pages site is unchanged. Do not push this branch to the public GitHub repository without explicit authorization.
 
 ## September 2026 private update
 
+- Added MGNREGA and PLFS project links, Instagram, refreshed INC and Shakti photographs, and the updated three-slide homepage sequence.
+
 - Added the two supplied MP photos and parliamentary work folder link.
-- Added all 14 supplied Kiul photographs in an independent research-section slider with captions, keyboard and swipe navigation, pause/play, and reduced-motion support.
+- Added the eight current Kiul photographs in an independent research-section slider with captions, keyboard and swipe navigation, pause/play, and reduced-motion support.
 - Replaced the portrait with the supplied `shailja1.jpg`.
 - Included both Shakti Abhiyan photographs and the Canva design folder link.
 - Added the Savera Foundation report, optimized for hosting with all 66 pages and extracted text retained; the original source PDF is untouched.
 - Added “Beyond Welfare Announcements in Uttar Pradesh” as a draft HTML article, preserving its text, chart and hyperlinks.
-- Replaced the downloadable CV with the exact supplied PDF. SHA-256: `526da40550cafa661e00df0ac88a3a8e65827dd234b390b9aa61dbb03fc03549`.
+- Replaced the downloadable CV with the exact supplied PDF. SHA-256: `d810cb0bc0ebd98fedaa785385df8764e55f341e90cda2a9ae6f2221f5b0957d`.
 - Removed the CRFHGR experience and associated research entry.
 
-Run `node prepare-static.cjs` to stage only website assets in ignored `dist/` for Sites packaging. `.openai/hosting.json` identifies the owner-only deployment. `origin` continues to identify the public GitHub repository for reference; the private Sites source repository is a separate deployment destination. The local branch remains `dev` even though Sites uses its own remote `main` branch.
+Run `node prepare-static.cjs` to stage only website assets in ignored `dist/` for Sites packaging. `.openai/hosting.json` identifies the restricted-access deployment. `origin` continues to identify the public GitHub repository for reference; the private Sites source repository is a separate deployment destination. The local branch remains `dev` even though Sites uses its own remote `main` branch.
 
-Keep the Sites audience owner-only. A `noindex` tag alone is not access control. Review the private website before deciding whether to publish any changes publicly.
+Keep the Sites audience restricted-access. A `noindex` tag alone is not access control. Review the private website before deciding whether to publish any changes publicly.
 
 This is a glimpse of the work Shailja has done so far and, somewhere, of who she is too. Some things began with curiosity, a question that stayed with her, or a feeling that something mattered enough to understand it better.
 
@@ -32,7 +34,7 @@ Open this folder in VS Code. Open `index.html` in a browser, or use VS Code's Li
 | `assets/documents/Shailja-Lavania-CV.pdf` | Downloadable public CV |
 | `assets/favicon.svg` | SL browser icon |
 
-The section order is Home, Story, Research, Publications, Impact, CV and Contact. Research interests are inside Research; professional experience is inside Impact. Search for each section's `id` in `index.html` to find it quickly.
+The section order is Home, Story, Research, Projects, Publications, Impact, CV and Contact. Research interests are inside Research; professional experience is inside Impact. Search for each section's `id` in `index.html` to find it quickly.
 
 ## Updating photographs
 
