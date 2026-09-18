@@ -1471,6 +1471,10 @@ content stays visible otherwise. */
 .work-links { display:flex; flex-wrap:wrap; align-items:center; gap:12px 24px; margin-top:22px; }
 .work-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
 .parliament-gallery { grid-column:2/-1; max-width:780px; }
+.featured-research>figure img[src$="kiul-river-current.webp"] { aspect-ratio:auto; height:auto; object-fit:contain; }
+@media(min-width:1000px) {
+  .parliament-gallery { grid-template-columns:repeat(3,minmax(0,1fr)); max-width:none; }
+}
 .work-gallery img { height:380px; object-fit:contain; background:#eaece4; }
 .work-gallery a,.shakti-gallery a { display:block; }
 .impact-photo>.shakti-gallery { padding:0; align-self:stretch; display:grid; gap:0; }
